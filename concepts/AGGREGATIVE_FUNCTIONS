@@ -1,0 +1,19 @@
+# Concept name
+
+AGGREGATE FUNCTIONS
+
+# My understanding
+
+Aggregate functions are SQL functions that combine multiple rows into a single summarized value. They are used to calculate totals, averages, counts, minimums, and maximums from a dataset.
+
+# Why it matters
+
+Aggregate functions are important because they help analyze data quickly. Instead of reviewing every row, we can calculate totals, averages, or statistics that summarize large amounts of information.
+
+# Example
+
+SELECT role, COUNT(*)
+FROM employees
+GROUP BY role;
+
+This query counts how many employees exist for each role in the company.
