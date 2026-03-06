@@ -12,7 +12,6 @@ SELECT * FROM movies WHERE NOT year BETWEEN 2000 AND 2010;
 SELECT * FROM movies WHERE id <= 5;
 
 --ACTIVITY 3
-SELECT * FROM movies WHERE title == "Toy Story";
 SELECT * FROM Movies WHERE title LIKE 'Toy Story%';
 SELECT * FROM Movies WHERE director = "John Lasseter";
 SELECT * FROM Movies WHERE director != "John Lasseter";
