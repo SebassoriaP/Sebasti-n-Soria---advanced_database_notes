@@ -49,7 +49,9 @@ ORDER BY velocity DESC;
 -- Are tasks being completed on time?
 
 -- 2. What is the exact definition?
--- Percentage of completed tasks finished on or before the due date, grouped by priority.
+-- Team velocity is calculated as the number of completed tasks divided by
+-- the number of members in each team. The metric uses the teams, users,
+-- and tasks tables, and only tasks with status = 'completed' are counted.
 
 -- 3. What are the edge cases?
 -- Tasks without due date are excluded.
